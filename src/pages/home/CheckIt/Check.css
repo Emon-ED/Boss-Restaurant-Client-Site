@@ -1,0 +1,5 @@
+.check{
+    background-image: url('../../../assets/home/featured.jpg');
+   border-radius: 5px;
+   filter: drop-shadow(5px 5px 20px black);
+}

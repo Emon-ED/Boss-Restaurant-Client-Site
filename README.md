@@ -56,7 +56,9 @@ A modern, responsive restaurant web application built with **React**, **Tailwind
 Use the following credentials to access the admin dashboard:
 
 
----
+Email: admin@gmail.com  
+Password: #123456codeByED@
+
 
 ## 🧑‍💻 How to Run Locally
 

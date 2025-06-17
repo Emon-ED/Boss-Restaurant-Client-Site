@@ -1,96 +1,76 @@
-# Boss Restaurant 
+# 🍽️ Boss Restaurant
 
-Demo: https://boss-restaurant-61c7e.firebaseapp.com
+Live Site 👉 [boss-restaurant-61c7e.web.app](https://boss-restaurant-61c7e.web.app/)
 
-This Restaurant Ordering System is a modern, fully responsive web application where users can browse food items, add them to their cart, and securely pay using Stripe. It features separate dashboards for customers and administrators, making it easy to manage orders, payments, and menu items.
+A modern, responsive restaurant web application built with **React**, **Tailwind CSS**, and **Firebase**. Designed for a smooth user experience and efficient restaurant management including menu browsing, user authentication, admin panel, and online ordering.
 
-🌟 Key Features
-👤 User Features:
-User Authentication (Firebase): Register, login, and manage profile.
+---
 
-Browse Menu: View categorized food items (Pizza, Burgers, Drinks, etc.).
+## 🚀 Features
 
-Add to Cart: Users can add food items and adjust quantity.
+- 🔥 Responsive Design (Mobile, Tablet, Desktop)
+- 🔐 User Authentication (Email/Password & Google Login)
+- 🍔 Dynamic Menu with categorized items
+- 📦 Cart Management for logged-in users
+- 📊 Admin Dashboard with role-based access
+- ✅ Add/Edit/Delete Menu Items (Admin only)
+- 💳 Payment Integration using Stripe (demo mode)
+- 📈 Order Management & History
 
-Checkout with Stripe: Secure online payments via Stripe API.
+---
 
-Order Tracking: Users can track their order status (Pending, Processing, Delivered).
+## 🛠️ Tech Stack
 
-User Dashboard:
+| Technology        | Use Case                          |
+|-------------------|-----------------------------------|
+| React             | Frontend UI                       |
+| React Router      | SPA Routing                       |
+| Tailwind CSS      | Styling & Responsive Layout       |
+| DaisyUI           | Component Library                 |
+| Firebase Auth     | User Authentication               |
+| Firebase Hosting  | Hosting Live Site                 |
+| Axios             | API Calls                         |
+| Node.js + Express | Backend (if used separately)      |
+| MongoDB (optional)| Storing menu and user data        |
 
-View order history.
+---
 
-Edit profile and manage saved addresses.
+## 🖼️ Screenshots
 
-Manage payment methods.
+### 🏠 Home Page
+![Home](https://i.ibb.co/kfCb7Wn/1.png)
 
-🛠️ Admin Features:
-Admin Authentication: Secure login for admins.
+### 🛠️ Admin Dashboard Overview
+![Admin Dashboard](https://i.ibb.co/B55b12Mg/admin-pannel.png)
 
-Dashboard Overview:
+### 📋 Admin - Menu Management
+![Admin Menu Panel](https://i.ibb.co/cKD9QjvF/admin-1.png)
 
-Total sales, pending orders, revenue analytics.
+### 🧑‍🍳 Admin - User & Role Management
+![Admin Role Panel](https://i.ibb.co/B55b12Mg/admin-pannel.png)
 
-Manage Food Items:
+---
 
-Add, edit, delete menu items (image, price, category).
+## 🔐 Admin Login
 
-Order Management:
+Use the following credentials to access the admin dashboard:
 
-View all orders, update statuses (Processing, Completed).
 
-User Management:
+---
 
-View and manage registered users.
+## 🧑‍💻 How to Run Locally
 
-Reports & Analytics:
+Follow these steps to run the project on your local machine:
 
-Sales reports, most ordered dishes, revenue tracking.
+```bash
+# 1. Clone the repository
+git clone https://github.com/Emon-ED/boss-restaurant.git
 
-🛒 Ordering Process
-User browses menu and selects items.
+# 2. Navigate to the project directory
+cd boss-restaurant
 
-Adds items to cart and adjusts quantity.
+# 3. Install dependencies
+npm install
 
-Proceeds to checkout with Stripe.
-
-Admin receives order notification.
-
-User tracks order status in the dashboard.
-
-💻 Tech Stack
-Frontend (React & UI/UX)
-React.js: Component-based UI development.
-
-Tailwind CSS + DaisyUI: Modern, responsive UI design.
-
-AOS (Animate on Scroll): Smooth animations on scrolling.
-
-Swiper.js: Interactive sliders for food categories.
-
-Backend (Node.js & API Handling)
-Node.js + Express.js: Server-side logic & API routes.
-
-MongoDB: Database for storing users, orders, and menu items.
-
-Firebase Authentication: User login, registration, and session management.
-
-TanStack Query: Optimized API data fetching & caching.
-
-Axios: Handling API requests efficiently.
-
-Payments & Security
-Stripe API: Secure online payment processing.
-
-JWT Authentication: Secured admin access.
-
-📌 Additional Features
-Fully Responsive Design (Tailwind + DaisyUI).
-
-Wishlist Feature: Users can save favorite dishes.
-
-Coupons & Discounts: Apply promo codes.
-
-Review & Rating System: Users can leave feedback on food items.
-
-# Boss-Restaurant-Client-Site
+# 4. Start the development server
+npm run dev
